@@ -1,0 +1,67 @@
+.offers {
+  padding: 100px 0;
+  background: #ffffff;
+}
+
+.offer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.offer-card {
+  background: #fff8f2;
+  border-radius: 20px;
+  padding: 35px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  transition: 0.4s;
+}
+
+.offer-card h3 {
+  margin-top: 20px;
+  color: #555;
+}
+
+.offer-card h1 {
+  margin: 20px 0;
+  font-size: 45px;
+  color: #d62828;
+}
+
+.offer-card p {
+  color: #666;
+  line-height: 1.8;
+}
+
+.gift-icon {
+  font-size: 45px;
+}
+
+.offer-card button {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #d62828;
+  color: white;
+  border: none;
+  padding: 14px 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.offer-card button:hover {
+  transform: translateX(5px);
+}
+
+@media (max-width: 768px) {
+  .offer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .offer-card h1 {
+    font-size: 36px;
+  }
+}

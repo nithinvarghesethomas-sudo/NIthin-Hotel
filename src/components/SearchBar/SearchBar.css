@@ -1,0 +1,43 @@
+.search-container{
+
+display:flex;
+
+align-items:center;
+
+gap:15px;
+
+background:white;
+
+padding:16px 20px;
+
+border-radius:50px;
+
+box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+max-width:650px;
+
+margin:40px auto;
+
+}
+
+.search-icon{
+
+font-size:22px;
+
+color:#D62828;
+
+}
+
+.search-container input{
+
+flex:1;
+
+border:none;
+
+outline:none;
+
+font-size:17px;
+
+background:transparent;
+
+}
