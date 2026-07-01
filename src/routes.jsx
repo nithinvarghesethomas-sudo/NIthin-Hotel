@@ -11,6 +11,7 @@ import Checkout from "./pages/Checkout";
 import OrderSuccess from "./pages/OrderSuccess";
 import Contact from "./pages/Contact";
 import Wishlist from "./pages/Wishlist";
+import Offers from "./pages/Offers";
 import NotFound from "./pages/NotFound";
 
 export default function RoutesComponent() {
@@ -22,6 +23,8 @@ export default function RoutesComponent() {
         <Route path="/" element={<Home />} />
 
         <Route path="/menu" element={<Menu />} />
+
+        <Route path="/offers" element={<Offers />} />
 
         <Route path="/category/:id" element={<Category />} />
 

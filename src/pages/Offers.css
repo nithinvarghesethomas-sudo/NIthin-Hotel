@@ -1,0 +1,70 @@
+.offers-page{
+padding:100px 0;
+background:#fff8f2;
+min-height:100vh;
+}
+
+.offers-title{
+text-align:center;
+font-size:42px;
+margin-bottom:50px;
+color:#222;
+}
+
+.offers-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:30px;
+}
+
+.offer-box{
+background:#fff;
+padding:35px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.offer-box:hover{
+transform:translateY(-10px);
+}
+
+.gift-icon{
+font-size:55px;
+margin-bottom:20px;
+}
+
+.offer-box h2{
+margin-bottom:15px;
+color:#333;
+}
+
+.offer-box h1{
+font-size:40px;
+color:#D62828;
+margin-bottom:20px;
+}
+
+.offer-box p{
+color:#666;
+line-height:1.8;
+margin-bottom:30px;
+}
+
+.order-btn{
+display:inline-flex;
+align-items:center;
+gap:10px;
+padding:14px 28px;
+background:#D62828;
+color:white;
+text-decoration:none;
+border-radius:10px;
+font-weight:600;
+transition:.3s;
+}
+
+.order-btn:hover{
+background:#b71c1c;
+}

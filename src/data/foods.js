@@ -89,7 +89,7 @@ const foods = [
     rating: 4.7,
     category: "Burger",
     image:
-      "https://images.unsplash.com/photo-1520073201527-6b044ba2ca9f?q=80&w=712&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1520073201527-6b044ba2ca9f?q=80&w=712&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", 
     description:
       "A cake is a soft, sweet baked dessert made with flour, sugar, eggs, and butter, often layered or decorated with cream or frosting. It’s commonly enjoyed during celebrations like birthdays and parties.",
   },

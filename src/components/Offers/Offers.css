@@ -65,3 +65,20 @@
     font-size: 36px;
   }
 }
+
+.offer-btn{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  padding:12px 24px;
+  background:#D62828;
+  color:white;
+  text-decoration:none;
+  border-radius:10px;
+  font-weight:600;
+  transition:.3s;
+}
+
+.offer-btn:hover{
+  background:#b71c1c;
+}

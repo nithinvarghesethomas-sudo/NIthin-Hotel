@@ -1,6 +1,7 @@
 import "./TodaysSpecial.css";
 import { motion } from "framer-motion";
 import { FaFire } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function TodaysSpecial() {
   return (
@@ -17,7 +18,7 @@ function TodaysSpecial() {
 
           <img
             src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=900"
-            alt="Special Dish"
+            alt="Special Chicken Dum Biryani"
           />
 
         </motion.div>
@@ -43,15 +44,22 @@ function TodaysSpecial() {
 
           <div className="price-box">
 
-            <span className="old-price">₹399</span>
+            <span className="old-price">
+              ₹399
+            </span>
 
-            <span className="new-price">₹229</span>
+            <span className="new-price">
+              ₹229
+            </span>
 
           </div>
 
-          <button className="order-btn">
+          <Link
+            to="/food/1"
+            className="order-btn"
+          >
             Order Now
-          </button>
+          </Link>
 
         </motion.div>
 
